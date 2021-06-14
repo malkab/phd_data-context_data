@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# ---------------------------
+#
+# Common settings for all contexts.
+#
+# ---------------------------
+#
+# Prefix variables with MLKC_.
+#
+# ---------------------------
+
+# -----
+# dev cell_raw_data PostGIS
+# -----
+export MLKC_CONTEXT_DATA_NETWORK=
+export MLKC_CONTEXT_DATA_HOST=$MLKC_SYSTEM_37NORTH_HOST
+export MLKC_CONTEXT_DATA_PG_EXTERNAL_PORT=$MLKC_SYSTEM_37NORTH_PG_PORT
+export MLKC_CONTEXT_DATA_POSTGIS_USER=$MLKC_SYSTEM_37NORTH_PG_USER
+export MLKC_CONTEXT_DATA_POSTGIS_PASSWORD=$MLKC_SYSTEM_37NORTH_PG_PASS

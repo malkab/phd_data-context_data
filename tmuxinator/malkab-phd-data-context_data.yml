@@ -1,0 +1,15 @@
+name: malkab-phd-data-context_data
+root: /home/git/malkab-phd-data/malkab-phd-data-context_data/
+
+windows:
+  - malkab-phd-data-context_data/src: >
+      clear ;
+      . mlkcontext common ;
+      cd src
+
+  - psql: >
+      clear ;
+      sleep 5 ;
+      . mlkcontext common ;
+      cd docker ;
+      ./010-psql.sh

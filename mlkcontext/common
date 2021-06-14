@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# ---------------------------
+#
+# Common settings for all contexts, base for development.
+#
+# ---------------------------
+#
+# Prefix variables with MLKC_.
+#
+# ---------------------------
+export MLKC_CONTEXT_DATA_APP_NAME=context_data
+
+# -----
+# dev cell_raw_data PostGIS
+# -----
+export MLKC_CONTEXT_DATA_NETWORK=cell_raw_data
+export MLKC_CONTEXT_DATA_HOST=cell_raw_data
+export MLKC_CONTEXT_DATA_PG_EXTERNAL_PORT=5432
+export MLKC_CONTEXT_DATA_POSTGIS_USER=postgres
+export MLKC_CONTEXT_DATA_POSTGIS_PASSWORD=postgres
